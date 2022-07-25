@@ -19,7 +19,7 @@ libeigen3-dev \
 libyaml-cpp-dev \
 liborocos-kdl-dev \
 libqt5x11extras5-dev \
-libboost-all-dev git  cmake -y
+libboost-all-dev git  cmake libxt-dev -y
 
 #########
 
