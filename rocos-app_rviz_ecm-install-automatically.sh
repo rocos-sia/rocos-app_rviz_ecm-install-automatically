@@ -23,6 +23,8 @@ libboost-all-dev git  cmake libxt-dev -y
 
 #########
 
+ popd popd popd  popd popd popd  popd popd popd  popd popd popd  popd popd popd  popd popd popd  popd popd popd 
+
 
 mkdir -p dev
 pushd dev
