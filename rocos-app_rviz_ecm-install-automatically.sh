@@ -53,6 +53,7 @@ pushd dev
             sudo make install
         popd
     popd
+    sudo echo -e "\n/usr/local/lib" >> /etc/ld.so.conf
     ############    
 
     ###rviz###
