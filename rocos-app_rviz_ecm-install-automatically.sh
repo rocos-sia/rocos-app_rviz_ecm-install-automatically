@@ -45,7 +45,7 @@ pushd dev
     ############    
 
     ###VTK###
-    wget https://www.vtk.org/files/release/8.2/VTK-8.2.0.tar.gz
+    wget -nc https://www.vtk.org/files/release/8.2/VTK-8.2.0.tar.gz
     tar -zxvf   VTK-8.2.0.tar.gz
     pushd VTK-8.2.0
         mkdir -p build
