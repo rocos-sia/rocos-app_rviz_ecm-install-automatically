@@ -56,6 +56,7 @@ pushd dev
         popd
     popd
     sudo echo -e "\n/usr/local/lib" >> /etc/ld.so.conf
+    ldconfig
     ############    
 
     ###rviz###
