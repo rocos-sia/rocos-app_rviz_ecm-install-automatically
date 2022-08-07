@@ -77,7 +77,8 @@ pushd dev
     qt5-default\
     libeigen3-dev\
     liburdfdom-dev \
-    libtinyxml2-dev  librosconsole-dev -y
+    libtinyxml2-dev  librosconsole-dev \
+    libssl-dev openssl  -y
 
     git clone https://github.com/thinkexist1989/rocos-app.git --depth=1  -b JC-master
     pushd rocos-app
